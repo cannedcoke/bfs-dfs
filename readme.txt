@@ -1,10 +1,29 @@
-genere el laberinto usando el algoritmo de dfs od depth first search que funciona buscando lo mas profundo de una rama antes de volver y ir 
-a las siguientes. este algoitmo usa loops, recursividad y matrices.
+bfs-dfs
+=======
 
-use el algoitmo de bfs o breadth first search que recorre el arbol de manera uniforma. recorrce cada node en la misma profundidad antes de ir
-a la siguente profundidad, este algoritmo usa tres marices una es el laberinto, otra es para marcar celdas ya visistadas y la ultima es para luego
-reconstruir el camino mas corto 
+Implementacion de los algoritmos de busqueda BFS y DFS en grafos, desarrollada en C++.
 
-primero al medir tiempos pense que estaba haciendo mal algo ya que el resultado era siempre de 0ms ya que mis datos de entrada eran simepre bajos 
-pero una vez los subi mas me di cuenta que el algoritmo si estaba tomandose su tiempo en correr cada linea de codigo
+Descripcion
+-----------
+Implementacion de los dos algoritmos fundamentales de recorrido de grafos: Busqueda en Anchura (BFS - Breadth First Search) y Busqueda en Profundidad (DFS - Depth First Search). El proyecto explora la representacion de grafos y la aplicacion de cada algoritmo para resolver problemas de conectividad, alcanzabilidad y recorrido de nodos.
 
+Tecnologias
+-----------
+- C++
+
+Conceptos aplicados
+-------------------
+- Representacion de grafos (lista o matriz de adyacencia)
+- Recorrido BFS con cola
+- Recorrido DFS con pila o recursion
+- Deteccion de nodos visitados
+
+Como compilar y ejecutar
+------------------------
+1. Compilar: g++ -o bfsdfs main.cpp
+2. Ejecutar: ./bfsdfs
+
+Autor
+-----
+Miqueas Zarate
+github.com/cannedcoke
